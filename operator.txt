@@ -130,3 +130,12 @@ symbols              operationname               Example
   &&                      AND                   ((X>Y)&&(X>Z))               =>FALSE
   ||                      OR                    ((X>Y)&&(X<Z))               =>TRUE
   !                       NOT                    COMPLAIMENT 
+
+Bitwise Operator
+1.Bitwise AND (&)
+2.Bitwise OR   (|)
+3.Shift left  (<<)
+4.Shift right  (>>)
+ 
+ Bitwise AND  if two condition is true the output will comes true
+ Bitwise OR if one condition is true the output will comes true

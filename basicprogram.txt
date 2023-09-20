@@ -1,0 +1,43 @@
+1.add two numbers.
+step1:to declare two variables and the which data to choose
+step2:to chose a Operator.
+step3:to pass the value on variable
+step4:add and print
+
+#include<stdio.h>
+int main(){
+    int side;
+     side*=side;
+    printf("%d",side);
+    return 0;
+}
+
+2.Subraction two numbers
+3.Multiplication
+4.Division
+5.area of circle =22/7*r*r;
+
+22/7*10*10
+22/7*100
+3.14f
+ 
+ 6.area of rectangle=l*b;
+ 7.area of triangle=1/2*b*h;
+ 8.area of square=side*side;
+
+
+ with third variable using
+ int a=20,b=10,temp;
+ temp=a+b;      20+10 =>30
+ a=temp-a;      30-20  =>10
+ b=temp-b;      30-10  =>20
+ printf("%d %d",a,b)
+ 10 20 
+
+  without third variable using
+  int a=20,b=10;
+  a=a+b;      20+10  =>30
+  b=a-b;      30-10  =>b=20
+  a=a-b       30-20   =>a=10
+
+  10 20
