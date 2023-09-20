@@ -1,0 +1,5 @@
+
+       Task1:
+       1.write a program on to Arithmetic Operator decalare to Double DataType.
+       2.write a program on to Assignment Operator decalare to Integer DataType. 
+       2.write a program on to Assignment Operator decalare to Float DataType. 

@@ -1,0 +1,132 @@
+OPERATOR IN C LANGUAGE
+operand => variable ex:a,b
+OPERATOR=>symbols
+ OPERATOR
+        It is a special symbols which is used to perform logical or mathematical operation
+        on data or variable.
+Operand
+       It is a data or variable on which the operation is to be performed.
+
+Types of Operators
+=>Arithmetic Operators
+=>Relational Operators
+=>Assignment Operators
+=>Logical Operators
+=>Bitwise Operators
+=>Conditional Operators
+=>Increment/Decrement Operators
+=>Special Operator
+
+1.Arithmetic Operator
+       1.Addition (+)
+       2.Subraction (-)
+       3.Division (/)
+       4.Multiplication (*)
+       5.Modulus (%)
+
+Example:
+       #include<stdio.h>
+       #include<conio.h>
+       int main(){
+              int a,b,c,add,sub,mult,div,mod;
+              clrscr();
+              a=10;
+              b=5;
+              add=a+b;
+              sub=a-b;
+              mult=a*b;
+              div=a/b;
+              mod=a%b;
+              printf("Addition=  %d",add);
+              printf("Subraction=  %d",sub);
+              printf("Multiplication=  %d",mult);
+              printf("Division=  %d",div);
+              printf("Modulus=  %d",mod);
+              return 0;
+       }
+2.Assignment Operators
+       1.Addition (+=)
+       2.Subraction (-=)
+       3.Division (/=)
+       4.Multiplication (*=)
+       5.Modulus (%)
+             #include<stdio.h>
+       #include<conio.h>
+       int main(){
+              int a,b,c,add,sub,mult,div,mod;
+              clrscr();
+              a=10;
+              b=5;
+              a+=b;
+              a-=b;
+              a*=b;
+              a/=b;
+              a%=b;
+              printf("Addition=  %d",a);
+              printf("Subraction=  %d",a);
+              printf("Multiplication=  %d",a);
+              printf("Division=  %d",a);
+              printf("Modulus=  %d",a);
+              return 0;
+       }
+3.Relational Operators
+symbols              operationname               Example
+  ==                 equalto                     2==3
+  !=                   not equalto               2!=3
+  >                  greater than                2>3
+  <                     less than                2<3
+  >=                 greater than or equalto     2>=3
+  <=                   lessthan than or equal    2<=2
+ 
+ 4.Increment/Decrement Operators
+ preIncrement and postincrement
+ preIncrement =>++a'
+ It Increments the value by 1 by in value is inside
+ a=10;
+ printf("%d",++a); //output 11
+ postincrement
+ It Increments the value by 1 by in value is after inside to Increment
+  a=10;
+ printf("%d",a++); //output 11
+  predecrements //--
+  a=10;
+  printf("%d",--a);         //9
+   postdecrements //--
+  a=10;
+  printf("%d",a--);         //9
+
+
+5.Conditional Operator  or tenary Operator
+
+ age=18;
+ expression1 ? expression2  :expression3;
+ Conditional ?  true       : false;
+ (age>=18)  ? "eligible" : "not eligible";
+
+
+
+
+double equalto    ==    =>double equalto check only values.
+int a=10
+unsigned int b=10;
+a==b
+trible equalto   ===    =>trible equalto is check with value and data type.
+int a=10;
+unsigned int b=10;
+a==b
+
+BOOLEAN MEANS TRUE OR false
+IF TRUE MEANS THE VALUE COMES 1
+IF false MEANS THE VALUE COMES 0
+
+6.Logical Operators(AND,OR,NOT)
+AND OPERATOR (*)=>PRODUCT
+TRUE      T=T
+T      F=false
+false  TRUE=false
+false false=FALSE
+X=10,Y=20,Z=30
+symbols              operationname               Example
+  &&                      AND                   ((X>Y)&&(X>Z))               =>FALSE
+  ||                      OR                    ((X>Y)&&(X<Z))               =>TRUE
+  !                       NOT                    COMPLAIMENT 

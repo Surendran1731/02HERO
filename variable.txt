@@ -1,0 +1,38 @@
+Variables and Contants
+
+VARIABLES:
+    1.It is a name of storage space which is used to store data.
+    2.It is value is changable.
+    3.It always contains value stored to it.
+    4.It is always declared with data type.
+    
+    RULES TO DECLARE A VARIABLES
+
+    1.The first letter of a Variable should be alphabet or underscore(_).
+    2.The first letter of Variable should not be digit(0-9).
+    3.After first character it may be combination of alphabets(a-z) and digits.
+    4.Blank spaces are not allowed in Variable name.
+    5.Variable name should not be a keyword.
+
+CONTANTS:
+    1.An element of program whose value can not be changed at the time of execution of 
+    program is called constant.
+    2.It is also called literals.
+    3.It may be int,float and character data type.
+
+    RULES FOR CONSTRUCTING INTEGER CONTANTS
+    1.It must have atleast one digit.
+    2.It must not have a decimal point.
+    3.It may be positive or negative value.
+
+    RULES FOR CONSTRUCTING FLOATING POINT CONTANTS
+    1.It must have atleast one digit.
+    2.It must have a decimal point.
+    3.It may be positive or negative value.
+
+    RULES FOR CONSTRUCTING CHARACTER CONTANTS
+    1.It is a single alphabet,digit or special symbol.
+    2.The length of character constant is 1 charcter.
+    
+
+

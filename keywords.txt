@@ -1,0 +1,5 @@
+keyword in C Language 
+    1.The word has a predefined meaning is called keywords.
+    2.It is functionality is also predefined.
+    3.It can not be used as an identifier.
+    4.There are 32 keywords are used in C.

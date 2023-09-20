@@ -1,0 +1,44 @@
+SYNTAX:
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    clrscr();
+    printf("Hello world");
+    getch();
+}
+1.stdio
+=>It stands for standard input output.
+=>It is a collection of predefined functions/method.
+=>It is also called library of C.
+
+2.include
+To include the header file into the program.
+
+3.#
+=>It is called preprocessor.
+=>It is used to show the output on console window.
+
+4.void 
+=>It is a keyword.
+=>It indicates that no one value is being returned by the function.
+=>If we use any other keyword like int,float,char etc in void then we will use return keyword.
+
+5.main
+=>It is the function which is called the entry point of any program.
+=>The execution of any program starts from the main function.
+
+6.clrscr
+=>It is stands for clear screen.
+=>It is a predefined function which is used to clear the output screen.
+=>It acts like  a duster on output screen.
+
+7.printf
+=>It is a predefined function which is use used to print information or data
+on to the output screen.
+=>It is defined in the stdio.h header file.
+
+8.getch
+=>It is a predefined function which used to hold the output screen.
+=>It is defined in the conio.h header file.
