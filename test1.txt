@@ -1,0 +1,42 @@
+1 Mark
+1.What would be the value of 'a':
+a. int a = 10/45*23%45/(45%4*21)
+b. float a = 10+45.0*23-45+(4*21.0)
+
+2.True or false (0 or not):
+a. 4>5 && 5>4
+b. 4>5 || 5>4
+c. (232+23*1233) || 0
+d. (232+23*1233) && 0
+
+3.If a is 15, then what would be the value of:
+=>printf("%d",++a);
+=>printf("%d",a++);
+=>printf("%d",--a);
+=>printf("%d",a--);
+
+4.What would be the output of:
+printf("%d\n",1==5==5);
+
+5.What is the error in:
+int a;
+3=a 
+
+
+programs
+1.Write a code to get the input in the given format and print the output in the given format
+Input Description:
+To take an integer value
+Output Description:
+Print the integer value
+Sample Input :
+2
+Sample Output :
+2
+
+
+2.simple interst
+3.INPUT MARKS OF FIVE SUBJECT LIKE TAMIL,ENGLISH,MATHS,SCIENCE,FRENCH FIND THE TOTAL AND AVERAGE.
+4.SWAPPING THE USING THIRD VARIABLE
+5.SWAPPING THE WITHOUT USING THIRD VARIABLE.
+
