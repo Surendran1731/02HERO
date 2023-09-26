@@ -1,0 +1,47 @@
+Desion making statements or Conditional statements
+there four of Conditional statements
+    =>If
+    =>else
+    =>if...else
+    =>Switch
+ 1.If
+
+ syntax
+
+if(condition){
+    //block of codes
+}
+
+=>if the condition is true its body execute otherwise not execute.
+=>In the case of if in the place of condition always zero and non-zero value is checked in which zero 
+means condition is false and non-zero means condition is true.
+
+2.else
+syntax
+
+if(condition){
+    //block of codes
+}
+else{
+    //block of code
+}
+
+=>if the condition is true if part executes and if the condition is false else part executes.
+=>In the case of if in the place of condition always zero and non-zero value is checked in which zero 
+means condition is false and non-zero means condition is true.
+
+
+#include<stdio.h>
+#include<conio.h>
+void main(){
+    int x,y;
+    x=10;
+    y=10;
+    if(x==y){
+        printf("X is equal to Y");
+    }
+    else{
+        printf("X is not equal to Y");
+    }
+    getch();
+}

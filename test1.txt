@@ -2,27 +2,27 @@
 
 1 Mark
 1.What would be the value of 'a':
-a. int a = 10/45*23%45/(45%4*21)
-b. float a = 10+45.0*23-45+(4*21.0)
+a. int a = 10/45*23%45/(45%4*21)  =>0
+b. float a = 10+45.0*23-45+(4*21.0)  =>1084.0
 
 2.True or false (0 or not):
-a. 4>5 && 5>4
-b. 4>5 || 5>4
-c. (232+23*1233) || 0
-d. (232+23*1233) && 0
+a. 4>5 && 5>4    =>0
+b. 4>5 || 5>4   =>1
+c. (232+23*1233) || 0   =>
+d. (232+23*1233) && 0       =>
 
 3.If a is 15, then what would be the value of:
-=>printf("%d",++a);
-=>printf("%d",a++);
-=>printf("%d",--a);
-=>printf("%d",a--);
+=>printf("%d",++a);    =>16
+=>printf("%d",a++);     =>15
+=>printf("%d",--a);     =>14
+=>printf("%d",a--);      =>15
 
 4.What would be the output of:
-printf("%d\n",1==5==5);
+printf("%d\n",1==5==5);    =>0
 
 5.What is the error in:
 int a;
-3=a 
+3=a ;
 
 
 programs
