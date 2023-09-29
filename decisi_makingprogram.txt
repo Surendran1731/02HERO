@@ -29,4 +29,69 @@ void main()
       printf("Not a vowel");
       }
 
-      sanfoundary in c
+      sanfoundary in 
+
+if else statement
+Syntax
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} 
+ else if (condition3) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} 
+ else if (condition4) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} 
+......
+.
+
+
+else {
+  // block of code to be executed if the condition1 is false and condition2 is false
+}
+
+ 
+example:
+
+
+int time = 22;
+if (time < 10) {
+  printf("Good morning.");
+} else if (time < 20) {
+  printf("Good day.");
+} else {
+  printf("Good evening.");
+}
+
+
+
+government holidays
+printf("January month holidays")
+enter the January date;
+new year jan 1;
+pongal jan 14;
+mattu pongal 15;
+republic day jan 26;
+another value is not holiday
+
+
+
+=     =>assign the value.
+==    =>compare the values only
+example:
+a=10;
+b=10;
+===     =>to check value and data type
+example:
+int a=10;
+int b=10;
+
+
+
+
+
+
+ 
+
