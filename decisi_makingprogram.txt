@@ -1,0 +1,32 @@
+//check a number is odd or even
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int n;
+  printf("Enter the number");
+  scanf("%d",&n);
+  //5%2
+  if(n%2==0){
+    printf("Even number");
+  }
+  else{
+    printf("odd number")
+  }
+  getch();  
+}
+ //vowel or not
+   char n;
+   printf("Enter the character");
+   scanf("%c",&n);
+  char lowercase,uppercase;
+  lowercase=(n=='a'||n=='e'||n=='i'||n=='o'||n=='u');
+  uppercase=(n=='A'||n=='E'||n=='I'||n=='O'||n=='U');
+  if(lowercase||uppercase){
+    printf("It is vowel");
+    }
+    else{
+      printf("Not a vowel");
+      }
+
+      sanfoundary in c
