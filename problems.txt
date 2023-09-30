@@ -1,0 +1,46 @@
+1.Given 3 numbers N , L and R. Print 'yes' if N is between L and R else print 'no'.
+Sample Testcase :
+INPUT
+3
+2 6
+OUTPUT
+yes
+
+
+2.Given 2 numbers N and M add both the numbers and check whether the sum is odd or even.
+Sample Testcase :
+INPUT
+9 2
+OUTPUT
+odd
+
+3.Given base(B) and height(H) of a triangle find its area.
+Input Size : N <= 1000000
+Sample Testcase :
+INPUT
+2 4
+OUTPUT
+4
+
+4.Given 3 numbers A,B,C print 'yes' if they can form the sides of a scalene triangle else print 'no'.
+Input Size : A,B,C <= 100000
+Sample Testcase :
+INPUT
+3 4 5
+OUTPUT
+yes
+
+5.You are provided with two numbers. Find and print the smaller number.
+
+Input Description:
+You are provided with two numbers as input.
+
+Output Description:
+Print the small number out of the two numbers.
+
+Sample Input :
+23 1
+
+Sample Output :
+1
+

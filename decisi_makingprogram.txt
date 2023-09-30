@@ -90,8 +90,51 @@ int b=10;
 
 
 
+NESTED IF IN C LANGUAGE
+Syntax:
+  if(condition1){
+    if(condition2){
+      statements;
+    }
+  }
+  else{
+    statements;
+  }
+
+=>nested means one inside another so one if inside another if is called nested if.
+=>in the case of if the place of condition always zero and non-zero values is checked in which
+zero condition false non-zero condition true.
+
+
+example:
+  #include<stdio.h>
+  int main()
+  {
+    int n=5;
+    if(n>5){
+      if(n<15){
+        printf("n is greater than 5 and n is less than 15");
+      }
+    }
+    else{
+      printf("not a number");
+    }
+    return 0;
+  }
+
+
+task:
+    1.inuput 5marks.
+    2.total and average
+    3.grade
+    4.average above 90   => A grade.
+    80  -89   =>b grade
+    70-79 =>c grade
+    60-69 =>d grade
+    50-59 => e grade
+    40-49  => f grade
+    below 39 =>fail
 
 
 
  
-
